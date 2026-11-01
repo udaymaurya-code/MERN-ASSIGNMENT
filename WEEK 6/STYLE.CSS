@@ -150,3 +150,29 @@
 
     z-index: 200;
 }
+
+.about-section {
+    background-color: #dbeafe;
+
+    padding: 30px;
+    margin: 30px;
+
+    border-radius: 15px;
+    text-align: center;
+}
+
+.footer {
+    background-color: navy;
+    color: white;
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #222;
+    line-height: 1.6;
+}
