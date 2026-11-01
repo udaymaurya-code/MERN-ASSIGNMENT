@@ -36,3 +36,49 @@
 
     cursor: pointer;
 }
+
+.banner {
+    min-height: 400px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        120deg,
+        #bfdbfe,
+        #e9d5ff
+    );
+
+    padding: 30px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: #102b60;
+}
+
+.banner h2 {
+    font-size: 28px;
+    margin: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.banner-button {
+    background-color: #2563eb;
+    color: white;
+
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
