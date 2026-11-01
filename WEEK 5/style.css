@@ -23,7 +23,7 @@
         color: white;
         text-align: center;
     }
-    
+    /*adding root and var*/
 :root {
     --primary-color:blue;
     --background-color: white;
