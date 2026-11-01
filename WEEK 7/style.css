@@ -122,3 +122,60 @@
     color: #102b60;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner {
+        min-height: 350px;
+    }
+
+    .banner h1 {
+        font-size: 27px;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}
