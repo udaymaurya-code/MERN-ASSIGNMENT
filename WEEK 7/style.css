@@ -1,5 +1,45 @@
 
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #172554;
+    line-height: 1.6;
+}
+
+
+.about-section {
+    background-color: #dbeafe;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.footer {
+    background-color: #102b60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 .navbar {
     display: flex;
 
