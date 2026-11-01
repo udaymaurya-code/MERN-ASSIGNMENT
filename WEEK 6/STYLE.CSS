@@ -22,3 +22,59 @@
     border: 1px solid blue;
     text-align: center;
 }
+
+.profile-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.profile-card {
+    width: 280px;
+    padding: 25px;
+    margin: 20px auto;
+
+    border: 2px solid;
+    border-radius: 20px;
+
+    text-align: center;
+}
+.avatar {
+    width: 110px;
+    height: 110px;
+
+    border-radius: 50%;
+    border: 4px solid white;
+
+    background: navy;
+    color: white;
+
+    font-size: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 15px;
+}
+
+.card-blue {
+    background-color: lightblue;
+    border-color: blue;
+}
+
+
+.card-purple {
+    background-color: lavender;
+    border-color: purple;
+}
+
+.profile-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+
+    background-color: navy;
+    color: white;
+
+    cursor: pointer;
+}
