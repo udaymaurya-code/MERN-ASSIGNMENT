@@ -149,3 +149,48 @@ body {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+}
+
+header {
+    background: #2563eb;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #dbeafe;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
