@@ -24,3 +24,21 @@ body {
     border-radius: 10px;
     font-size: 20px;
 }
+
+
+.responsive-grid {
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(150px, 1fr));
+
+    gap: 15px;
+}
+
+.box {
+    background-color: #0d9488;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
