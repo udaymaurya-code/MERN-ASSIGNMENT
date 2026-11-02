@@ -95,3 +95,33 @@ body {
             "foot";
     }
 }
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background-color: #dbeafe;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+}
+
+.icon {
+    font-size: 35px;
+}
+
+.card h3 {
+    color: #1d4ed8;
+}
+
+.card p {
+    color: #475569;
+}
